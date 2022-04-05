@@ -81,7 +81,7 @@ function set(){
       var text3 = g.options[g.selectedIndex].text;
 
       var h = document.getElementById("select4");
-      var text4 = g.options[g.selectedIndex].text;
+      var text4 = h.options[h.selectedIndex].text;
     
     
          var idExist = document.getElementById("vijay");
