@@ -27,7 +27,7 @@ body{
     position: absolute;
     top: 50px;
     left: 30px;}
-    .hr{
+    #hr{
         background-image: url(./timeline.png);
         width: 80px;
         height: 90px;
@@ -41,16 +41,10 @@ body{
         font-family: 'Courier New', Courier, monospace;
         font-size: 22px;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 25px;
     }
-    .col{
-        color: #3D087B;
-        font-size: 45px;
-        position: absolute;
-        top: 30px;
-        left: 185px;
-    }
-    .min{
+    
+    #min{
         background-image: url(./timeline.png);
         width: 80px;
         height: 90px;
@@ -64,9 +58,16 @@ body{
         font-family: 'Courier New', Courier, monospace;
         font-size: 22px;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 25px;
     }
-    .sec{
+    .col{
+        color: #3D087B;
+        font-size: 45px;
+        position: absolute;
+        top: 30px;
+        left: 185px;
+    }
+    #sec{
         background-image: url(./timeline.png);
         width: 80px;
         height: 90px;
@@ -80,9 +81,9 @@ body{
         font-family: 'Courier New', Courier, monospace;
         font-size: 22px;
         text-align: center;
-        padding-top: 15px;
+        padding-top: 25px;
     }
-    .am{
+    #am{
         background-image: url(./AM.png);
         width: 80px;
         height: 90px;
@@ -144,7 +145,7 @@ body{
         top: 20px;
         left: 100px;
     }
-    .select1{
+    #select1{
         color: #3D087B;
         font-size: 16px;
         width: 255px;
@@ -175,7 +176,7 @@ body{
         top: 93px;
         left: 100px;
     }
-    .select2{
+    #select2{
         color: #3D087B;
         font-size: 16px;
         width: 255px;
@@ -206,7 +207,7 @@ body{
         top: 170px;
         left: 100px;
     }
-    .select3{
+    #select3{
         color: #3D087B;
         font-size: 16px;
         width: 255px;
@@ -237,7 +238,7 @@ body{
         top: 258px;
         left: 100px;
     }
-    .select4{
+    #select4{
         color: #3D087B;
         font-size: 16px;
         width: 255px;
@@ -261,7 +262,7 @@ body{
         top: 205px;
         left: 716px;
     }
-.grab{
+#grab{
     color: #8E53F0;
     font-size: 25px;
     position: absolute;
@@ -269,7 +270,7 @@ body{
     left: 45px;
     font-weight: bold;
 }
-.box5{
+#box5{
         background-image: url(./pic.png);
         position: absolute;
         background-size:cover;
@@ -279,7 +280,7 @@ body{
         height: 350px;
         width: 535px;
 }
-.box6{
+#box6{
  height: 60px;
  width: 550px;
  background-color:#8E53F0;
@@ -322,7 +323,7 @@ button:hover .btntxt1{
 button:hover .btntxt2{
     display: contents;
 }
-.last{
+#vijay{
     height: 80px;
     width: 250px;
     background-color: #8E53F0;
@@ -334,7 +335,7 @@ button:hover .btntxt2{
     top: 30px;
     font-size: 16px;
     opacity: 0.7;
-    color: #F25CFE;
+    color:white;
 }
 @media only screen and (min-width:300px) and (max-width:900px){
     body{
@@ -403,7 +404,7 @@ button:hover .btntxt2{
             top: 625px;
             left: 52px;
         }
-        .box5{
+        #box5{
             background-image: url(./pic.png);
             position: absolute;
             background-size:cover;
@@ -413,7 +414,7 @@ button:hover .btntxt2{
             height: 350px;
             width: 535px;
     }
-    .box6{
+    #box6{
         height: 60px;
         width: 540px;
         background-color:#8E53F0;
